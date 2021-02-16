@@ -1,0 +1,60 @@
+{
+  "apiKey": {
+    "type": "text",
+    "label": "OpenWeather API Key",
+    "value": "xxxxxxxxxxx"
+  },
+  "zipcode": {
+    "type": "number",
+    "label": "Zip Code",
+    "value": 19125
+  },
+  "weatherUnits": {
+    "type": "dropdown",
+    "label": "Units: C / F",
+    "value": "imperial",
+    "options": {
+      "imperial": "F",
+      "metric": "C"
+    }
+  },
+  "weatherFormat": {
+    "type": "dropdown",
+    "label": "Weather display type",
+    "value": "full",
+    "options": {
+      "full": "Icon, Temperature, Condition",
+      "icon_only": "Icon",
+      "temperature_only": "Temperature",
+      "temperature_condition": "Temperature, Condition"
+    }
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Font name",
+    "value": "Roboto"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font size",
+    "value": 24
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "400",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    }
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "rgba(255,255,255,1)"
+  }
+}
